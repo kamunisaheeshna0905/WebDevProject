@@ -29,7 +29,7 @@ public class DAO {
 				StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
 						.applySetting(Environment.DRIVER, "com.mysql.cj.jdbc.Driver")
 						.applySetting(Environment.URL, "jdbc:mysql://localhost:3306/dbname")
-						.applySetting(Environment.USER, "****")
+						.applySetting(Environment.USER, "*****")
 						.applySetting(Environment.PASS, "***************")
 						.applySetting(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect")
 						.applySetting(Environment.SHOW_SQL, "true")
