@@ -28,9 +28,9 @@ public class DAO {
 			try {
 				StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
 						.applySetting(Environment.DRIVER, "com.mysql.cj.jdbc.Driver")
-						.applySetting(Environment.URL, "jdbc:mysql://localhost:3306/webtoolsproject")
-						.applySetting(Environment.USER, "root")
-						.applySetting(Environment.PASS, "husky")
+						.applySetting(Environment.URL, "jdbc:mysql://localhost:3306/dbname")
+						.applySetting(Environment.USER, "****")
+						.applySetting(Environment.PASS, "***************")
 						.applySetting(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect")
 						.applySetting(Environment.SHOW_SQL, "true")
 						.applySetting(Environment.HBM2DDL_AUTO,"validate")
